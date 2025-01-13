@@ -95,13 +95,4 @@ To run the application in development mode:
    npm run dev --prefix frontend
    ```
 
-## License
-This project is licensed under the ISC License.
-
-## Author
-[Your Name]
-
----
-
-Feel free to customize this README file to better suit your project specifics!
 
