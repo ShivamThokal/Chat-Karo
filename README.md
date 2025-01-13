@@ -56,29 +56,29 @@ npm start
 ```
 
 ## Folder Structure
-- **frontend/**: Contains the client-side code, built with React and Vite.
-  - **Key Dependencies:**
-    - `axios`: For API requests.
-    - `react-router-dom`: For routing.
-    - `zustand`: For state management.
-    - `tailwindcss`: For styling.
-    - `socket.io-client`: For real-time communication.
-  - **Scripts:**
-    - `dev`: Runs the development server.
-    - `build`: Builds the frontend application.
-    - `lint`: Runs ESLint for code quality checks.
-    - `preview`: Previews the production build.
-
 - **backend/**: Contains the server-side code, built with Express.
-  - **Key Dependencies:**
-    - `express`: For creating the server.
-    - `mongoose`: For database management.
-    - `jsonwebtoken`: For authentication.
-    - `bcrypt`: For password hashing.
-    - `socket.io`: For real-time communication.
-  - **Scripts:**
-    - `dev`: Starts the backend server in development mode with `nodemon`.
-    - `start`: Starts the backend server in production mode.
+  - **src/**:
+    - **controllers/**: Contains controller logic for handling requests.
+    - **lib/**: Contains helper functions or utility modules.
+    - **middleware/**: Middleware for request processing (e.g., authentication).
+    - **models/**: Database schemas and models.
+    - **routes/**: API routes for the application.
+    - **seeds/**: Data seeding files for initializing the database.
+
+- **frontend/**: Contains the client-side code, built with React and Vite.
+  - **dist/**: The production build of the frontend application.
+    - **assets/**: Compiled static assets.
+  - **public/**: Public static files like `index.html`.
+  - **src/**:
+    - **assets/**: Images and other static resources used in the application.
+    - **components/**: Reusable React components.
+      - **skeletons/**: Skeleton loaders for components.
+    - **constants/**: Application constants and configuration files.
+    - **lib/**: Helper functions or utility modules for the frontend.
+    - **pages/**: React components representing individual pages.
+    - **store/**: State management setup (e.g., Zustand store).
+
+
 
 ## Scripts
 - **`npm run build`**: Installs dependencies for both the backend and frontend, and builds the frontend application.
