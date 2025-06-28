@@ -94,5 +94,21 @@ To run the application in development mode:
    ```bash
    npm run dev --prefix frontend
    ```
+   ---
+## 📷 Screenshots
+- Login 
+![image](https://github.com/user-attachments/assets/e865877b-32db-4a8c-9917-859db3fdc9b8)
+- Sign in 
+![image](https://github.com/user-attachments/assets/cf433029-a652-4816-82d9-9223a8184773)
+- Chat Dashboard
+![image](https://github.com/user-attachments/assets/3933a16c-5313-476c-873c-7261fc18789f)
+- Themes
+![image](https://github.com/user-attachments/assets/8c77b408-545e-4b22-a0c5-2df6e2b2bd3c)
+- Profile
+![image](https://github.com/user-attachments/assets/4573c408-6ea6-483e-8341-770fece567a9)
+
+
+
+
 
 
